@@ -1,0 +1,8 @@
+node_modules
+.idea
+yarn-error.log
+yarn.lock
+dist/*
+!dist/favicon.ico
+!dist/jwplayer-8.9.3
+!dist/static
