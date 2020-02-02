@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import {useDispatch, useSelector} from "react-redux";
+import AddCash from "./AddCash"
 
 const Customer = ({customer}) => {
 
@@ -10,6 +11,7 @@ const Customer = ({customer}) => {
       <p>Stan konta: {customer.account}</p>
       <p>Stan lokaty: {customer.deposit}</p>
       <p>Stan kredytu: {customer.credit}</p>
+     <AddCash/>
     </article>
   )
 }
