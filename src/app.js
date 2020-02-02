@@ -6,7 +6,8 @@ import { Provider, useSelector } from 'react-redux';
 import reducers from './reducers'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Bank from './components/Bank'
+import Bank from './components/Bank';
+import CustomerList from './components/CustomersList';
 
 const store = createStore(reducers, applyMiddleware(logger));
 
@@ -17,6 +18,7 @@ const App = () => {
 
   return <div className="container">
     <Bank />
+    <CustomerList />
   </div>
 }
 
