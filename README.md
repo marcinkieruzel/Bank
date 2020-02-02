@@ -12,7 +12,7 @@
 -- stan lokaty
 -- stan kredytu
 
-- stwórz reducer służący do obsługi isty kont
+- stwórz reducer służący do obsługi listy kont
 
 ##### Na podstawie reducera z listą kont stwórz komponenty Customer
 - stwórz komponent customer z odpowiednimi danymi
@@ -24,6 +24,10 @@
 -- formularz wpłaty wewnętrznej - spłaty kredytu lub dodania lokaty
 
 ##### Pokaż stan konta banku
+- stan konta
+- stan lokat
+- stan kredytów
+- stan zaległych spłat
 
 ##### Ustaw interwał który odpowiednio co 1 minutę zwiększy stan lokat o 0.5% a kredytów zmniejszy o 1%
 
