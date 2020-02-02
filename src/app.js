@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Bank from './components/Bank'
 
 const App = () => {
   return <div className="container">
-    <h1>TEST</h1>
+    <Bank />
   </div>
 }
 

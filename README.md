@@ -1,6 +1,7 @@
 ### Stwórz Bank w Redux
 
 #### Skonfigurują Reduxa w projekcie
+- stwórz store, reducery oraz Providera
 
 ##### Stwórz komponent Bank
 
@@ -22,6 +23,8 @@
 -- formularz dodawania lokaty
 -- formularz kredytowy
 -- formularz wpłaty wewnętrznej - spłaty kredytu lub dodania lokaty
+
+##### Stwórz komponent z listą klientów - CustomersList
 
 ##### Pokaż stan konta banku
 - stan konta
