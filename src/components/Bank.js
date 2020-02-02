@@ -11,23 +11,29 @@ const defaultFormData = {
 }
 
 const Bank = () => {
+  const bank = useSelector(state => state.bank)
   const [formData, setFormData] = useState (
     defaultFormData
   )
   const dispatch = useDispatch()
   const handleSubmit = (e) => {
     e.preventDefault()
-    dispatch({type: "ADD_CUSTOMER", payload: formData})
+    dispatch({type: "ADD_CUSTOMER", payload: {[formData.PESEL]: formData}})
   }
   const handleChange = (e) => {
     setFormData({
-      ...formData, 
+      ...formData,
       [e.currentTarget.id] : e.currentTarget.value
     })
   }
   return (
     <div>
     <h1>Bank Redux S.A.</h1>
+      <div className="panel">
+        <ul>
+          <li>Stan konta banku: {bank.balance}</li>
+        </ul>
+      </div>
       <h2>Dodaj klienta</h2>
       <form onSubmit={handleSubmit} action="">
         <div className="form-group">

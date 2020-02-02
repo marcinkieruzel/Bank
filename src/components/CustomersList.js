@@ -12,7 +12,7 @@ const CustomerList = () => {
 
   return <div className="row">
     {
-      customers.map((customer,i) => {
+      Object.values(customers).map((customer,i) => {
         return <Customer key={i} customer={customer} />
       })
     }

@@ -11,7 +11,7 @@ const Customer = ({customer}) => {
       <p>Stan konta: {customer.account}</p>
       <p>Stan lokaty: {customer.deposit}</p>
       <p>Stan kredytu: {customer.credit}</p>
-     <AddCash/>
+     <AddCash pesel={customer.PESEL}/>
     </article>
   )
 }
