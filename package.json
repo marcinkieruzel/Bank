@@ -32,7 +32,7 @@
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
     "selector-set": "^1.1.4",
-    "swiper": "4.5.0"
+    "swiper": "6.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
